@@ -12,6 +12,7 @@ public class MenssagemDTO {
 
 	private String menssagem;
 	private int provider_port;
+	
 	public String getMenssagem() {
 		return menssagem;
 	}

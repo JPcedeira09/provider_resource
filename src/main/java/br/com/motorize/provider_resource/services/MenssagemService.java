@@ -13,6 +13,6 @@ public class MenssagemService {
 	private Environment environment;
 	
 	public MenssagemDTO getMenssagem() {
-		return new MenssagemDTO("Ja conquistamos essa merda",Integer.valueOf(environment.getProperty("local.server.port")));
+		return new MenssagemDTO("Mensagem",Integer.valueOf(environment.getProperty("local.server.port")));
 	}
 }

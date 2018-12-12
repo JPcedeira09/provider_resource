@@ -1,0 +1,13 @@
+#spring:
+#  profiles: local
+#  application:
+#    name: provider_resource
+#  cloud:
+#    config:
+#      uri: http://localhost:8000
+#server:
+#   port:8000
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
